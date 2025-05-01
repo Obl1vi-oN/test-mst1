@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomeCraft - Custom House Builders</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="headerContent">
+            <a href="/" class="logo">HomeCraft</a>
+
+            <div class="burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav id="navMenu">
+                <ul class="headerNavList">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <div class="heroContent">
+            <div class="heroText">
+                <h1>Build Your Dream Home with HomeCraft</h1>
+                <h3>We design and construct modern, energy-efficient houses tailored to your lifestyle and budget.</h3>
+                <ul>
+                    <li>
+                        <img src="./img/check_mark.svg" alt="Check">
+                        <p>Over <span>500</span> custom homes successfully built nationwide</p>
+                    </li>
+                    <li>
+                        <img src="./img/check_mark.svg" alt="Check">
+                        <p><span>3</span> generations of experience in residential construction</p>
+                    </li>
+                    <li>
+                        <img src="./img/check_mark.svg" alt="Check">
+                        <p><span>16</span> industry awards for design and craftsmanship</p>
+                    </li>
+                </ul>
+                <a href="#" class="btn">Get a Quote</a>
+            </div>
+            <div class="heroImage">
+                <img src="./img/fed4cd76-fc57-4243-abc8-486378c8754b.png" alt="Banner Image" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cards">
+    <ul class="cardContent">
+        <li>
+            <img src="./img/d0ee3d11-e2ce-496d-8b16-d8af02206f5a.png" alt="banner image" class="cardImage" />
+        </li>
+        <li class="card">
+            <div class="cardText">
+                <img src="./img/check_mark_2.svg" alt="Check">
+                <p>Custom architectural designs tailored for modern families.</p>
+            </div>
+            <div class="cardText">
+                <img src="./img/check_mark_2.svg" alt="Check">
+                <p>High-grade construction materials with certified quality control.</p>
+            </div>
+            <div class="cardText">
+                <img src="./img/check_mark_2.svg" alt="Check">
+                <p>Smart home integrations and eco-friendly technology solutions.</p>
+            </div>
+            <div class="cardText">
+                <img src="./img/check_mark_2.svg" alt="Check">
+                <p>Turnkey construction from concept to completion with full client support.</p>
+            </div>
+            <button class="btn">Discover More</button>
+        </li>
+        <li>
+            <img src="./img/7b8074d1-51f7-4085-ad60-bc4a776806a4.png" alt="banner image" class="cardImage cardImage2" />
+        </li>
+    </ul>
+</section>
+
+<section class="form-section">
+    <div class="container">
+        <div class="formContent">
+            <form>
+                <h2>Request Your Free Consultation</h2>
+                <div class="inputGroup">
+                    <input type="text" placeholder="Name" required />
+                </div>
+                <div class="inputGroup">
+                    <input type="text" placeholder="Email" required />
+                </div>
+                <div class="inputGroup">
+                    <input type="checkbox" id="accept" required />
+                    <label for="accept">I accept the Privacy Policy</label>
+                </div>
+                <button type="submit" class="btn form-btn">Submit Form</button>
+            </form>
+            <div class="formImage">
+                <img src="./img/140720ae-4168-4fb8-b580-8633ce34a636.png" alt="banner image" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <nav>
+            <a href="/">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="socialMedia">
+            <a href="/" class="logo">HomeCraft</a>
+            <ul>
+                <li><a href="#"><img src="./img/I.svg" alt="I"></a></li>
+                <li><a href="#"><img src="./img/T.svg" alt="T"></a></li>
+                <li><a href="#"><img src="./img/L.svg" alt="L"></a></li>
+                <li><a href="#"><img src="./img/L.svg" alt="L"></a></li>
+                <li><a href="#"><img src="./img/F.svg" alt="F"></a></li>
+                <li><a href="#"><img src="./img/T-1.svg" alt="T1"></a></li>
+                <li><a href="#"><img src="./img/Y.svg" alt="Y"></a></li>
+            </ul>
+            <button class="btn">Contact Us</button>
+        </div>
+        <div class="copyright">
+            <p>© 2024, HomeCraft.</p>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+        </div>
+    </div>
+</footer>
+<script>
+    const burger = document.getElementById('burger');
+    const navMenu = document.getElementById('navMenu');
+
+    burger.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+    });
+</script>
+
+</body>
+</html>
